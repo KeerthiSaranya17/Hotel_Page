@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "./Contact";
 // import { useNavigate } from "react-router";
 
 const Accomodations = () => {
@@ -145,6 +146,9 @@ const Accomodations = () => {
           <button class="offer-btn">Book Now</button>
         </div>
       </section>
+      <div>
+        <Contact/>
+      </div>
     </div>
   );
 };

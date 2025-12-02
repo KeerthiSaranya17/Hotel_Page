@@ -1,28 +1,24 @@
-
-/* fixed top-0 left-0 right-0 z-10 */
-.navbar{
+.navbar {
   width: 98.95%;
   background-color: black;
-  /* height: 50px; */
+
   padding: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0;
-  /* left: 0; */
   z-index: 1000;
   box-sizing: border-box;
-  /* overflow: hidden; */
 }
 
-.hotel_name{
+.hotel_name {
   color: aliceblue;
   padding: 0%;
   margin: 0%;
 }
 
-button{
+button {
   width: 100px;
   height: 30px;
 }
@@ -32,185 +28,174 @@ nav {
   gap: 16px;
 }
 
-.slider img{
-  width:100%;
-  /* margin: 0%; */
+.slider img {
+  width: 100%;
   height: 600px;
-  padding-top:20px;
+  padding-top: 20px;
 }
 
-/* Make arrows overlay the image */
 .slick-prev,
 .slick-next {
-  z-index: 2;             /* keep on top of image */
+  z-index: 2;
   width: 40px;
   height: 40px;
 }
 
 .slick-prev {
-  left: 10px;             /* position inside left edge */
+  left: 10px;
 }
 
 .slick-next {
-  right: 10px;            /* position inside right edge */
+  right: 10px;
 }
 
-/* Style arrows */
 .slick-prev:before,
 .slick-next:before {
   font-size: 35px;
-  color: white;           /* white arrows */
+  color: white;
   opacity: 0.8;
 }
 
 .slick-prev:hover:before,
 .slick-next:hover:before {
   opacity: 1;
-  color: #facc15;         /* example: gold on hover */
+  color: #facc15;
 }
 
-.logo{
-  width:50px;
-  height:50px;
+.logo {
+  width: 50px;
+  height: 50px;
 }
 
-.logo-heading{
+.logo-heading {
   display: flex;
   align-items: center;
   gap: 16px;
-  /* justify-content: start; */
 }
 
-
-.hotel-img{
+.hotel-img {
   margin-top: 60px;
   width: 100%;
   height: 500px;
 }
 
-.heading{
+.heading {
   text-align: center;
 }
 
-.category{
+.category {
   text-align: center;
-  /* margin-top: 20px; */
-  padding-top: 5px;
-  /* padding-bottom: 5px; */
 }
 
-.category_section{
+.category_section {
   background-color: rgb(246, 238, 229);
   padding-bottom: 40px;
-  /* display: flex; */
 }
 
-.category-container{
+.category-container {
   width: 550px;
   background-color: white;
   border-radius: 16px 16px 0 0;
 }
 
-.category-container img{
+.category-container img {
   border-radius: 16px;
   height: 350px;
   width: 550px;
 }
 
-.categories{
+.categories {
   display: flex;
   flex-wrap: wrap;
   gap: 60px;
   justify-content: center;
 }
 
-.explore-button{
+.explore-button {
   width: 100px;
   height: 34px;
-  background-color: rgb(246, 238, 229) ;
+  background-color: rgb(246, 238, 229);
   border-radius: 8px;
-  border: 1px solid rgb(143, 140, 140) ;
+  border: 1px solid rgb(143, 140, 140);
   cursor: pointer;
 }
 
-.tag-section{
+.tag-section {
   padding-right: 10px;
   padding-left: 10px;
   margin-bottom: 16px;
 }
 
-.info{
+.info {
   display: flex;
   justify-content: space-evenly;
 }
 
-.social-media{
+.social-media {
   text-align: center;
 }
 
-.copyright{
+.copyright {
   text-align: center;
 }
 
-.about{
+.about {
   margin-top: 75px;
 }
 
-.contact{
+.contact {
   margin-top: 80px;
 }
 
-.about-img{
+.about-img {
   display: flex;
   gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.contact-heading{
+.contact-heading {
   text-align: center;
 }
 
-.contact-qus{
+.contact-qus {
   text-align: center;
 }
 
-.aboutsection{
+.aboutsection {
   display: flex;
   justify-content: space-evenly;
 }
 
-.about-message{
+.about-message {
   text-align: center;
 }
 
-.about-name{
+.about-name {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   gap: 40px;
 }
 
-.about-email{
-display: flex;
-justify-content: center;
- gap: 40px;
+.about-email {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
-.about-mes{
-display: flex;
-justify-content: center;
- gap: 40px;
+.about-mes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
-.about-but{
+.about-but {
   display: grid;
   justify-content: center;
-   gap: 40px;
-  /* border-radius: 8px; */
+  gap: 40px;
 }
 
-.about-but button{
+.about-but button {
   border-radius: 8px;
   height: 40px;
   width: 200px;
@@ -219,70 +204,66 @@ justify-content: center;
   border: 1px solid rgb(11, 10, 10);
 }
 
-.form-section{
+.form-section {
   display: grid;
   gap: 16px;
 }
 
-.about-name input{
+.about-name input {
   border-radius: 6px;
   border: 1px solid rgb(11, 10, 10);
 }
 
-.about-email input{
+.about-email input {
   border-radius: 6px;
   border: 1px solid rgb(11, 10, 10);
 }
 
-.about-mes textarea{
+.about-mes textarea {
   border-radius: 6px;
   border: 1px solid rgb(11, 10, 10);
 }
 
-.accomodations{
-  /* margin-top: 40px; */
-  /* background-color: rgb(228, 231, 221); */
-  padding-bottom: 40px;
-  /* height: 400px; */
-  /* margin-bottom: 40px; */
-}
-
-.dinningoptions{
+.accomodations {
   margin-top: 80px;
 }
 
-.meetings{
+.dinningoptions {
   margin-top: 80px;
 }
 
-.spa{
+.meetings {
   margin-top: 80px;
 }
 
-.accom-img{
+.spa {
+  margin-top: 80px;
+}
+
+.accom-img {
   /* max-width: 100%; */
   width: 100%;
   height: 600px;
 }
 
-.accom-heading{
+.accom-heading {
   text-align: center;
   font-size: 35px;
   color: black;
   padding: 16px;
 }
 
-.accom-des{
+.accom-des {
   text-align: center;
 }
 
-.section{
+.section {
   gap: 16px;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
-.section1{
+.section1 {
   max-width: 300px;
   background-color: rgb(205, 205, 203);
   padding: 16px;
@@ -290,43 +271,18 @@ justify-content: center;
   margin-bottom: 40px;
 }
 
-.sec-heading{
+.sec-heading {
   font-size: 20px;
   text-align: center;
   font-weight: 530;
   color: rgb(11, 6, 10);
 }
 
-/* .offer {
-  margin: 50px auto;
-  max-width: 1200px;
-  padding: 5px;
-  text-align: center;
-  color: white;
-  font-weight: bold;
-  font-size: 1.2rem;
-  background: linear-gradient(
-  to right,
-  rgb(236,155,155) 0%,     
-  rgb(102, 209, 238) 20%,     
-  #475aab 40%,           
-  #5e2f4d 60%,           
-  rgb(170,237,165) 80%,   
-  rgb(146, 5, 151) 100%  
-);
-background: linear-gradient(
-    to right,
-    #cfa66b,      
-    #b8873e
-  );
-  border-radius: 6px;
-} */
-
 .offer-strip {
   margin-top: 40px;
   max-width: full;
   padding: 10px;
-  background: linear-gradient(90deg, #ff4b2b, #ff6a00); /* red-orange for urgency */
+  background: linear-gradient(90deg, #ff4b2b, #ff6a00);
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -336,7 +292,6 @@ background: linear-gradient(
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
-/* Subtle background icon (for depth) */
 .offer-strip::before {
   content: "🏨";
   position: absolute;
@@ -348,7 +303,6 @@ background: linear-gradient(
   pointer-events: none;
 }
 
-/* Content wrapper */
 .offer-content {
   max-width: 1200px;
   width: 100%;
@@ -359,7 +313,6 @@ background: linear-gradient(
   flex-wrap: wrap;
 }
 
-/* Text styling */
 .offer-text h1 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -373,7 +326,6 @@ background: linear-gradient(
   max-width: 600px;
 }
 
-/* Call-to-action button */
 .offer-btn {
   max-width: 100px;
   height: 40px;
@@ -390,9 +342,194 @@ background: linear-gradient(
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
-/* Gradient shimmer on hover for the whole strip */
 .offer-strip:hover {
   background: linear-gradient(90deg, #ff6a00, #ff4b2b, #ff6a00);
   background-size: 200% 100%;
   animation: shimmer 3s linear infinite;
+}
+
+.dinningoptions {
+  /* padding-bottom: 40px; */
+}
+
+.dinning-img {
+  width: 100%;
+  height: 600px;
+  border-radius: 0%;
+}
+
+.dinning-heading {
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  padding: 16px;
+}
+
+.dinning-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+}
+
+.dinning-category {
+  /* gap: 16px; */
+  width: 550px;
+  /* background-color: white; */
+  border-radius: 16px 16px 0 0;
+  background: rgb(246, 238, 229);
+}
+
+.dinning-section img {
+  height: 350px;
+  width: 550px;
+  border-radius: 16px;
+}
+
+.dinning-items {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.meetings img {
+  width: 100%;
+  height: 600px;
+}
+
+.meetings h1 {
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  padding: 16px;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+}
+
+.meetings h4 {
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+  color: rgb(52, 51, 51);
+}
+
+.me-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.me-card {
+  position: relative;
+  height: 340px;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.me-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.me-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.65), transparent);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 24px;
+  opacity: 0;
+  transition: 0.4s ease;
+}
+
+.me-overlay span {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.me-card:hover img {
+  transform: scale(1.06);
+}
+
+.me-card:hover .me-overlay {
+  opacity: 1;
+}
+
+.spa img {
+  width: 100%;
+  height: 600px;
+}
+
+.spa h1 {
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  padding: 16px;
+}
+
+.spa-subtitle {
+  font-size: 18px;
+  color: #a67c52;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.spa-desc {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+  width: 100%;
+  text-align: center;
+}
+
+.spa-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.spa-card {
+  position: relative;
+  height: 360px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.spa-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.spa-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 24px;
+  opacity: 0;
+  transition: 0.4s ease;
+}
+
+.spa-overlay span {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.spa-card:hover img {
+  transform: scale(1.06);
+}
+
+.spa-card:hover .spa-overlay {
+  opacity: 1;
 }
