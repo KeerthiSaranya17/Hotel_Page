@@ -1,15 +1,15 @@
-import Page from './Home'
+import Page from './Components/Home'
 import './App.css'
-import About from './About'
+import About from './Components/About'
 // import Contact from './Contact'
 import { Routes, Route, Link } from 'react-router-dom'
-import NavBar from './NavBar'
+import NavBar from './Components/NavBar'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import Accomodations from './Accomodations'
-import DinnerOptions from './DinnerOptions'
-import MeetingAndEvents from './MeetingAndEvents'
-import SpaAndSwimming from './SpaAndSwimming'
+import Accomodations from './Components/Accomodations'
+import DinnerOptions from './Components/DinnerOptions'
+import MeetingAndEvents from './Components/MeetingAndEvents'
+import SpaAndSwimming from './Components/SpaAndSwimming'
 
 
 function App() {

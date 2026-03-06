@@ -28,7 +28,7 @@ const Contact = () => {
 
         
         <div className="social-media">
-          <h3 className="text-xl md:text-2xl font-bold mr-4">Follow Us</h3>
+          <h3>Follow Us</h3>
           <a href="#" >Facebook</a>
           <a href="#" >Instagram</a>
           <a href="#" >LinkedIn</a>
