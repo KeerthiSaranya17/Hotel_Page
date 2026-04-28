@@ -1,10 +1,14 @@
 import React from "react";
 import Contact from "./Contact";
+import Dinningoptions from '../assets/Dinning options.jpg'
+import Square from '../assets/Square.jpg'
+import zaffran from '../assets/zaffran.jpg';
+import redBowl from '../assets/red bowl.jpg';
 
 const DinnerOptions = () => {
   return (
     <div className="dinningoptions">
-      <img className="dinning-img" src="Dinning options.jpg" />
+      <img className="dinning-img" src={Dinningoptions} />
       <h1 className="dinning-heading">DinnerOptions</h1>
       <h4>The Square</h4>
       <p>
@@ -30,7 +34,7 @@ const DinnerOptions = () => {
       </p>
       <div className="dinning-section">
         <div className="dinning-category" >
-          <img src="Square.jpg" />
+          <img src={Square} />
           <div className="dinning-items">
           <h5>THE SQUARE</h5>
           <p>
@@ -43,7 +47,7 @@ const DinnerOptions = () => {
           </div>
         </div>
         <div className="dinning-category">
-          <img src="zaffran.jpg" />
+          <img src={zaffran} />
           <div className="dinning-items">
           <h5>Zaffran</h5>
           <p>
@@ -56,7 +60,7 @@ const DinnerOptions = () => {
           </div>
         </div >
         <div className="dinning-category">
-          <img src="red bowl.jpg " />
+          <img src={redBowl} />
           <div className="dinning-items">
           <h5>Red Bowl</h5>
           <p>

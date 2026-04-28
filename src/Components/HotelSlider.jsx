@@ -3,6 +3,10 @@ import React from 'react'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import Hotel1 from '../assets/hotel_1.png';
+import Hotel2 from '../assets/hotel_2.jpg';
+import Hotel3 from '../assets/hotel_3.jpg';
+import Hotel4 from '../assets/hotel_4.jpg';
 const HotelSlider = () => {
 
   
@@ -24,16 +28,16 @@ pauseOnFocus: false,
     <div className='slider'>
       <Slider {...settings}>
         <div>
-          <img src="/hotel_1.png" alt="hotel1" />
+          <img src={Hotel1} alt="hotel1" />
         </div>
         <div>
-          <img src="/hotel_2.jpg" alt="hotel2" />
+          <img src={Hotel2} alt="hotel2" />
         </div>
         <div>
-          <img src="/hotel_3.jpg" alt="hotel3"  />
+          <img src={Hotel3} alt="hotel3"  />
         </div>
         <div>
-          <img src="/hotel_4.jpg" alt="hotel4"  />
+          <img src={Hotel4} alt="hotel4"  />
         </div>
       </Slider>
     </div>

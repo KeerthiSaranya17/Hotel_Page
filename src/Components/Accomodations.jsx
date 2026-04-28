@@ -1,11 +1,16 @@
 import React from "react";
 import Contact from "./Contact";
+import kingbed from '../assets/suite room with king bed.avif'
+import accom from '../assets/Accomodation.jpg';
+import suitebar from '../assets/suite bar.jpg';
+import singlebed from '../assets/single bed.jpg';
+import doublebed from '../assets/double bed.jpg';
 // import { useNavigate } from "react-router";
 
 const Accomodations = () => {
   return (
     <div className="accomodations">
-      <img className="accom-img" src="https://i.pinimg.com/1200x/83/9e/fe/839efe28d4e47810182789ead59a1ceb.jpg"></img>
+      <img className="accom-img" src={accom}></img>
       <h1 className="accom-heading">Accomodations</h1>
       <p className="accom-des">
         Enjoy accomodations at MYSTIQUE KEY. Immerse yourself in the luxury
@@ -56,7 +61,7 @@ const Accomodations = () => {
       <section >
         <div className="categories">
           <div className="category-container">
-            <img src="https://plus.unsplash.com/premium_photo-1661964402307-02267d1423f5?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+            <img src={kingbed} />
             <div className="tag-section">
               <h3>Suite Room with king bed</h3>
               <p>
@@ -75,7 +80,7 @@ const Accomodations = () => {
             </div>
           </div> 
           <div className="category-container">
-            <img src="suite bar.jpg" />
+            <img src={suitebar} />
             <div className="tag-section">
               <h3>Suite room with bar</h3>
               <p>
@@ -94,7 +99,7 @@ const Accomodations = () => {
             </div>
           </div> 
           <div className="category-container">
-            <img src="single bed.jpg" />
+            <img src={singlebed} />
             <div className="tag-section">
               <h3>Luxury room with single bed </h3>
               <p>
@@ -113,7 +118,7 @@ const Accomodations = () => {
             </div>
           </div> 
           <div className="category-container">
-            <img src="double bed.jpg" />
+            <img src={doublebed} />
             <div className="tag-section">
               <h3>Luxury room with double bed</h3>
               <p>

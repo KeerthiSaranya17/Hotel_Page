@@ -1,10 +1,13 @@
 import React from "react";
 import Contact from "./Contact";
+import meeting from '../assets/meeting.jpg';
+import Private from '../assets/private.jpg';
+import wedding from '../assets/wedding.jpg';
 
 const MeetingAndEvents = () => {
   return (
     <div className="meetings">
-      <img src="meeting.jpg" />
+      <img src={meeting} />
       <h1>Meeting and Events</h1>
       <h4>Plan your meetings and events with us</h4>
       <p>
@@ -16,21 +19,21 @@ const MeetingAndEvents = () => {
       </p>
       <div className="me-grid">
         <div className="me-card">
-          <img src="meeting.jpg" alt="Meeting" />
+          <img src={meeting} alt="Meeting" />
           <div className="me-overlay">
             <span>Corporate Meetings</span>
           </div>
         </div>
 
         <div className="me-card">
-          <img src="private.jpg" alt="Event" />
+          <img src={Private} alt="Event" />
           <div className="me-overlay">
             <span>Private Events</span>
           </div>
         </div>
 
         <div className="me-card">
-          <img src="wedding.jpg" alt="Wedding" />
+          <img src={wedding} alt="Wedding" />
           <div className="me-overlay">
             <span>Wedding Celebrations</span>
           </div>
