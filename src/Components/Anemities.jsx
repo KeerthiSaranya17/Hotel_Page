@@ -12,14 +12,14 @@ const Anemities = () => {
           <div className="category-container">
             <img src="https://media.istockphoto.com/id/104287144/photo/hotel-room-interior.jpg?s=612x612&w=0&k=20&c=fLHp1_wxGdWC2vvwUzUxKJVhSoWu3vWKHTlNw-nQeWs=" />
             <div className="tag-section">
-              <h3>Accomodations</h3>
+              <h3>Accommodations</h3>
               <p>
                 Experience ultimate comfort in our elegantly designed rooms and
                 suites, equipped with modern amenities and offering breathtaking
                 views for a relaxing stay.
               </p>
               <div>
-              <button onClick={()=>Navigate("/accomodations")} className="explore-button">Explore More</button>
+              <button onClick={()=>Navigate("/accommodations")} className="explore-button">Explore More</button>
             </div>
             </div>
             
@@ -27,7 +27,7 @@ const Anemities = () => {
           <div className="category-container">
             <img src="https://img.freepik.com/free-photo/luxury-dinner-table-hotel_1150-11071.jpg" />
             <div className="tag-section">
-            <h3>Dinning Options</h3>
+            <h3>Dining Options</h3>
             <p>
               Savor world-class cuisine at our fine dining restaurant, enjoy
               international flavors, or unwind with light bites and refreshing

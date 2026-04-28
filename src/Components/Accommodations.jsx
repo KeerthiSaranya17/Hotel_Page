@@ -7,13 +7,13 @@ import singlebed from '../assets/single bed.jpg';
 import doublebed from '../assets/double bed.jpg';
 // import { useNavigate } from "react-router";
 
-const Accomodations = () => {
+const Accommodations = () => {
   return (
     <div className="accomodations">
       <img className="accom-img" src={accom}></img>
-      <h1 className="accom-heading">Accomodations</h1>
+      <h1 className="accom-heading">Accommodations</h1>
       <p className="accom-des">
-        Enjoy accomodations at MYSTIQUE KEY. Immerse yourself in the luxury
+        Enjoy accommodations at MYSTIQUE KEY. Immerse yourself in the luxury
         suites
       </p>
       <div className="section">
@@ -158,4 +158,4 @@ const Accomodations = () => {
   );
 };
 
-export default Accomodations;
+export default Accommodations;

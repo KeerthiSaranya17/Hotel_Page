@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import NavBar from './Components/NavBar'
 import Home from './Components/Home'
 import About from './Components/About'
-import Accomodations from './Components/Accomodations'
+import Accommodations from './Components/Accommodations'
 import DinnerOptions from './Components/DinnerOptions'
 import MeetingAndEvents from './Components/MeetingAndEvents'
 import SpaAndSwimming from './Components/SpaAndSwimming'
@@ -20,7 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/accomodations" element={<Accomodations />} />
+        <Route path="/accommodations" element={<Accommodations />} />
         <Route path="/dinneroptions" element={<DinnerOptions />} />
         <Route path="/meetingandevents" element={<MeetingAndEvents />} />
         <Route path="/spaandswimmingpool" element={<SpaAndSwimming />} />

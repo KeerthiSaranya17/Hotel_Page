@@ -1,15 +1,15 @@
 import React from "react";
 import Contact from "./Contact";
-import Dinningoptions from '../assets/Dinning options.jpg'
+import Diningoptions from '../assets/Dinning options.jpg'
 import Square from '../assets/Square.jpg'
 import zaffran from '../assets/zaffran.jpg';
 import redBowl from '../assets/red bowl.jpg';
 
 const DinnerOptions = () => {
   return (
-    <div className="dinningoptions">
-      <img className="dinning-img" src={Dinningoptions} />
-      <h1 className="dinning-heading">DinnerOptions</h1>
+    <div className="diningoptions">
+      <img className="dining-img" src={Diningoptions} />
+      <h1 className="dining-heading">DinnerOptions</h1>
       <h4>The Square</h4>
       <p>
         An all-day dining multi-cuisine Restaurant, The Square is rated amongst
@@ -32,10 +32,10 @@ const DinnerOptions = () => {
         awakened and traditional dishes are reimagined with a contemporary
         twist.
       </p>
-      <div className="dinning-section">
-        <div className="dinning-category" >
+      <div className="dining-section">
+        <div className="dining-category" >
           <img src={Square} />
-          <div className="dinning-items">
+          <div className="dining-items">
           <h5>THE SQUARE</h5>
           <p>
             {" "}
@@ -46,9 +46,9 @@ const DinnerOptions = () => {
           </p>
           </div>
         </div>
-        <div className="dinning-category">
+        <div className="dining-category">
           <img src={zaffran} />
-          <div className="dinning-items">
+          <div className="dining-items">
           <h5>Zaffran</h5>
           <p>
             An extraordinary fine dining Indian speciality restaurant with
@@ -59,9 +59,9 @@ const DinnerOptions = () => {
           </p>
           </div>
         </div >
-        <div className="dinning-category">
+        <div className="dining-category">
           <img src={redBowl} />
-          <div className="dinning-items">
+          <div className="dining-items">
           <h5>Red Bowl</h5>
           <p>
             The rooftop restaurant is a dynamic and innovative restaurant that
