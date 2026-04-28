@@ -34,11 +34,10 @@ This project demonstrates **clean UI design, reusable components, and client-sid
 
 
 ### 🛏️ Accommodations
-![Room1](./screenshots/accommodations/Accommodation.jpg)
+![Room1](./screenshots/accommodations/Accommodations.jpg)
 ![Room1](./screenshots/accommodations/Accommodations2.jpg)
 ![Room1](./screenshots/accommodations/Accommodations3.jpg)
 ![Room1](./screenshots/accommodations/Accommodations4.jpg)
-![Room1](./screenshots/accommodations/Accommodations.jpg)
 
 ### 🍽️ Dining Options
 ![Dining](./screenshots/DiningOptions/Diningoptions.jpg)
