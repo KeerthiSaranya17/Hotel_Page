@@ -29,19 +29,34 @@ This project demonstrates **clean UI design, reusable components, and client-sid
 ### 🏠 Home Page
 ![Home1](./screenshots/home/home.jpg)
 ![Home2](./screenshots/home/home2.jpg)
+![Home2](./screenshots/home/home3.jpg)
+![Home2](./screenshots/home/home4.jpg)
 
 
 ### 🛏️ Accommodations
-![Room1](./screenshots/accomodations)
+![Room1](./screenshots/accommodations/Accommodations.jpg)
+![Room1](./screenshots/accommodations/Accommodations2.jpg)
+![Room1](./screenshots/accommodations/Accommodations3.jpg)
+![Room1](./screenshots/accommodations/Accommodations4.jpg)
 
 ### 🍽️ Dining Options
-![Dining](./screenshots/DiningOptions)
+![Dining](./screenshots/DiningOptions/Diningoptions.jpg)
+![Dining](./screenshots/DiningOptions/Diningoptions2.jpg)
+![Dining](./screenshots/DiningOptions/Diningoptions3.jpg)
 
 ### 🧖 Spa & Swimming
-![Swimming](./screenshots/swimming)
+![Swimming](./screenshots/swimming and spa/swimming .jpg)
+![Swimming](./screenshots/swimming and spa/swimming2.jpg)
+
+### Meetings and Events
+![Meetings](./screenshots/meetings.jpg)
 
 ### 📞 Contact
 ![Contact](./screenshots/Contact.jpg)
+
+### About
+![About](./screenshots/About.jpg)
+
 
 ---
 
